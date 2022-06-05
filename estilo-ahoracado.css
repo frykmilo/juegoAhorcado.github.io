@@ -1,0 +1,151 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 800px;
+  margin-left: 100px;
+  margin-top: 260px;
+}
+body{
+  background-image: url("/img/fondoRock.png"); 
+  background-repeat: no-repeat;
+  background-size: 60%;
+  
+  
+}
+#alura{
+width: 10%;
+margin-top: -400px;
+margin-left: 20px;
+}
+
+h1{
+
+}
+.titulo {
+  margin-top: -210px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: -120px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+h4#msg-final {
+  text-align: center;
+  color: rgb(102, 250, 56);
+  transition: all .5s ease;
+  transform: scale(0);
+  min-height: 50px;
+  margin-top: 10px;
+  margin-left: -140px;
+}
+.zoom-in {
+  transform: scale(1) !important;
+  margin-right: -15px;
+}
+#acierto {
+  text-align: center;
+  min-height: 24px;
+  transform: scale(0);
+  
+}
+.acierto {
+  animation: zoomInOut 1s ease;
+   
+}
+.rojo {
+  color: rgb(102, 250, 56);
+ 
+}
+.verde {
+  color: green;
+}
+//*@keyframes zoomInOut {
+  0% { transform: scale(0); }
+  50% { transform: scale(1); }
+  70% { transform: scale(1); }
+  100% { transform: scale(0); }
+}*//
+#palabra{
+ 
+}
+h2.palabra {
+  margin-left: 500px;
+  text-align: center;
+  color: rgb(240, 241, 246);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+#reset{
+ margin-bottom: 20px;
+ margin-left: 500px;
+ box-shadow: -5px -5px 30px 5px #e200ff, 5px 5px 30px 5px #0647af;
+}
+.flex-row {
+  margin-left: -10px;
+  padding : 29px;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*background-color: blanchedalmond;*/
+  height: 120px;
+ }
+ #abcdario{
+   /*background-color: blanchedalmond;*/
+   margin-top: 30px;
+   height: 50px;
+ }
+ #hueco-pista{
+   color: aliceblue;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;   
+ }
+//*
+.no-wrap {
+  flex-wrap: nowrap !important;
+}*//
+.col {
+
+  width: 50%;
+  text-align: center;
+  
+}
+.col span {
+ 
+}
+#turnos h3 {
+  margin-right: 520px;
+  color: rgb(255, 175, 175);
+ 
+}
+h3 span {
+   color: rgb(255, 255, 255);
+}
+.letra:disabled {
+  color:rgba(255, 0, 0, 0.5);
+  
+}
+picture {
+ display: block;
+}
+picture img {
+  position: absolute;
+  left: 240px;
+  top: 180px;
+  height: 400px;
+}
+#image5, #image4, #image3,
+#image2, #image1, #image0 {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.fade-in {
+  opacity: 1 !important;
+}
+.encuadre {
+  border: 2px dashed crimson;
+  padding: 3px 2px 2px 6px;
+}
+
